@@ -1,0 +1,10 @@
+body {
+    scroll-behavior: smooth;
+  }
+  #skills .rounded, .card {
+    transition: transform 0.3s ease;
+  }
+  #skills .rounded:hover, .card:hover {
+    transform: translateY(-5px);
+  }
+  
